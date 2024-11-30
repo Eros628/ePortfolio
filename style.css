@@ -49,8 +49,7 @@ body{
     margin: 0px; 
 }
 
-
-img{
+.Eros-picture-landingPage{
     height: 650px;
     width: auto;
 }
@@ -75,9 +74,7 @@ img{
     margin-top: 0px;
     font-size: 50px;
 }
-.img-container{
-    margin: 0px;
-}
+
 .main-content{
     padding-right: 40px;
     flex:2;
@@ -89,4 +86,43 @@ img{
     display: flex;
     justify-content: space-between;
     overflow: hidden;
+}
+
+.works-section{
+    margin: 0px;
+}
+
+.text-couresel-works{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #1A1A1A;
+    height: 90px;
+    color: #A4A4A4;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.list-works{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+#wrapper1-box{
+    margin-left: 75px;
+    margin-top: 162px;
+}
+
+#wrapper2-box{
+    margin-top: 80px;
+    margin-right: 75px;
+    
+}
+
+.box{
+    width: 550px;
+    height: 550px;
+    border-radius: 50px;
+    background: linear-gradient(to right,rgba(217, 217, 217, 0.3), rgba(115, 115, 115, 0.199)); 
+
 }

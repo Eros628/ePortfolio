@@ -54,6 +54,7 @@ body{
     width: auto;
 }
 
+
 .nav-button{
     padding-right: 46px;
     margin: 0px;
@@ -174,4 +175,49 @@ body{
     align-items: end;
     justify-content: space-around;
     padding-right: 46px;
+}
+
+.menu-nav{
+    padding-top: 10px;
+    padding-right: 0px;
+}
+
+.Porfolio-text, .About{
+    font-size: 90px;
+    margin: 0px;
+}
+
+.nav-menu{
+    height: 100vh;
+    background: linear-gradient(to top,#1F1F1F,#131313, #060606);
+}
+
+.X-button{
+    padding-right: 46px;
+}
+
+
+.nav-menu-content{
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.email{
+    padding-left: 15px;
+    margin: 0px;
+}
+
+.email-box{
+    margin-top: 56px ;
+    width: 252px;
+    height: 45px;
+    display: flex;
+    background: white;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    border-radius: 54px;
+    font-weight: bold;
 }

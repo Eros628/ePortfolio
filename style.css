@@ -126,3 +126,33 @@ body{
     background: linear-gradient(to right,rgba(217, 217, 217, 0.3), rgba(115, 115, 115, 0.199)); 
 
 }
+
+.qoutes-section{
+    background: black;
+    display: flex;
+    height: 799px;
+    padding-top: 50px;
+    gap: 85px
+}
+.img-container-qoute{
+    width: 551px;
+    height: 448px;
+    margin-left: 120px;
+    border-radius: 50px;
+    background: linear-gradient(to right,rgba(217, 217, 217, 0.3), rgba(115, 115, 115, 0.199)); 
+}
+.text-qoute{
+    color:white;
+    padding-top: 80px;
+    
+}
+
+.qoute{
+    margin: 40px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.img-qoute{
+    position: relative;
+    bottom: 120px;
+}

@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+
+body{
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+
+.landing-page {
+    display:  flex;
+    flex-direction: column;
+    background: linear-gradient(to right,#1F1F1F,#131313, #060606);
+    height: 670px;
+}
+.nav-bar{
+    color: white;
+    display:  flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: end;
+    padding-top: 30px;
+}
+
+.nav-available-box{
+    color:#13cb07;
+    display: flex;
+    align-items: center;
+    width: 116px;
+    height: 40px;
+    border-radius: 23px;
+    margin: 0px;
+    padding: 0px;
+    background: #1a1a1a;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+
+}
+.circle{
+    margin-left: 16px;
+    margin-right: 9px;
+    width: 10px;
+    height: 10px;
+    background-color: #13cb07;
+    border-radius: 25px;
+}
+.works-section {
+    background:black;
+    height: 2078px;
+}
+body{
+    margin: 0px; 
+}
+
+
+img{
+    height: 650px;
+    width: auto;
+}
+
+.nav-button{
+    padding-right: 46px;
+    margin: 0px;
+}
+.Eros-title{
+    margin: 0px;
+    padding-left: 46px;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+}
+.text-aspiring{
+    font-size: 20px;
+    font-weight:100;
+    margin-bottom: 0px;
+}
+.text-building{
+    margin-top: 0px;
+    font-size: 50px;
+}
+.img-container{
+    margin: 0px;
+}
+.main-content{
+    padding-right: 40px;
+    flex:2;
+    text-align: right;
+    align-content: center;
+    color:white;
+}   
+.main-body{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}

@@ -386,6 +386,7 @@ p{
 .build-things-together-text{
     font-size: 40px;
     font-weight: bold;
+    padding-bottom: 0px;
 }
 
 @keyframes carousel{

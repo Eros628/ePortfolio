@@ -46,12 +46,15 @@ body{
     background:black;
     height: 2078px;
 }
-
+body{
+    margin: 0px; 
+}
 
 .Eros-picture-landingPage{
     height: 650px;
     width: auto;
 }
+
 
 .nav-button{
     padding-right: 46px;
@@ -221,13 +224,11 @@ body{
 }
 
 .landing-page-about{
-    position: relative;
     background: linear-gradient(to right,#1F1F1F,#131313, #060606);
-    height: 700px;
+    height: 670px;
     color: white;
     display: flex;
     flex-direction: column;
-    z-index: 2;
 }
 
 .text-aspiring-about{
@@ -235,18 +236,18 @@ body{
     margin: 0;
     font-size: 20px;
     padding-left: 40px ;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .About-text{
     padding: 0px;
-    font-size: 480px;
+    font-size: 500px;
     font-weight: bold;
     color:#333333;
     flex-shrink: 2;
     margin:0px;
     position: relative;
-    bottom:70px;
+    bottom:90px;
 }
 
 .intro-about {
@@ -259,8 +260,8 @@ body{
 
 .about-picture{
     position: relative;
-    bottom: 640px;
-    height: 600px;
+    bottom: 630px;
+    width: 600px;
 }   
 
 p{
@@ -270,139 +271,22 @@ p{
 .about-text-container2{
     color:#333333;
     height: 100px;
+    z-index: -10;
+    
 }
 
 .info-about-me{
     overflow: hidden;
-    display: flex;
-    margin-top: 90px;
-    justify-content: space-around;
 }
 .content-about{
     height: 783px;
     color:white;
     background: black;
 }
-.name-container{
-    font-size: 24px;
-}
 
-.info-container{
-    width: 680px;
-    font-size: 25px;
-}
-
-.aspiring-text3{
-    color: #BFB7B7;
-}
-.Name{
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
 .about-text-2{
     font-size: 300px;
     font-weight: bold;
     position: relative;
-    bottom: 180px;
-    right: 120px;
-    z-index: 1;
-}
-
-.skill-text{
-    position:relative;
-    left: 550px;
-}
-
-.skill-text-container{
-    font-size: 300px;
-    font-weight: bold;
-    color:#333333;
-    display: flex;
-    overflow: hidden;
-    margin: 0;
-}
-
-.skills-content{
-    background: black;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    height: 770px;
-    align-items: center;
-}
-
-.icons{
-    animation: big 3s ease-in alternate-reverse;
-}
-
-.skill-description{
-    width: 650px;
-    font-size: 24px;
-}
-
-.container-icon-carousel{
-    display: flex;
-    gap: 20px;
-    padding-right: 20px;
-    will-change: transform;
-    animation: carousel 10s linear infinite
-}
-.icon-programming-languages{
-    width: 450px;
-    display: flex;
-    overflow:hidden;
-}
-
-.container-icon{
-    padding: 20px 0;
-    display: flex;
-    overflow:hidden;
-    > *{
-        flex: 0 0 100%;
-    }
-}
-
-.email-container-about{
-    background: black;
-    height: 395px;
-}
-
-.rectangle-email{
-    color: white;
-    margin: auto;
-    width: 979px;
-    height: 194px;
-    background: linear-gradient(to right,#1F1F1F,#131313, #060606);
-    border-radius: 21px;
-    border: 1px solid;
-    border-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-}
-
-.build-things-together-text{
-    font-size: 40px;
-    font-weight: bold;
-}
-
-@keyframes carousel{
-    0%{
-        transform: translateX(0);
-    }
-
-    100%{
-        transform: translateX(-100%);
-    }
-}
-
-@keyframes big{
-    0%{
-        height: 350px;
-    }
-    100%{
-        height: 500px;
-    }
+    bottom: 200px;
 }

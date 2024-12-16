@@ -369,24 +369,17 @@ p{
 }
 
 .rectangle-email{
-    color: white;
-    margin: auto;
     width: 979px;
     height: 194px;
-    background: linear-gradient(to right,#1F1F1F,#131313, #060606);
     border-radius: 21px;
-    border: 1px solid;
-    border-color: white;
+    border: 2px solid;
+    border-image: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px;
 }
 
-.build-things-together-text{
-    font-size: 40px;
-    font-weight: bold;
-}
+
 
 @keyframes carousel{
     0%{

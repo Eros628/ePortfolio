@@ -3,6 +3,7 @@
 
 body{
     font-family: 'Familjen Grotesk', sans-serif;
+    margin: 0px;
 }
 
 .landing-page {
@@ -219,5 +220,68 @@ body{
     align-items: center;
     color: black;
     border-radius: 54px;
+    font-weight: bold;
+}
+
+.landing-page-about{
+    background: linear-gradient(to right,#1F1F1F,#131313, #060606);
+    height: 670px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-aspiring-about{
+    flex-shrink: 1;
+    margin: 0;
+    font-size: 20px;
+    padding-left: 40px ;
+    padding-top: 10px;
+}
+
+.About-text{
+    padding: 0px;
+    font-size: 500px;
+    font-weight: bold;
+    color:#333333;
+    flex-shrink: 2;
+    margin:0px;
+    position: relative;
+    bottom:90px;
+}
+
+.intro-about {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.about-picture{
+    position: relative;
+    bottom: 630px;
+    width: 600px;
+}   
+
+p{
+    margin: 0;
+}
+
+
+.about-text-container2{
+    color:#333333;
+    
+
+}
+.content-about{
+    
+    height: 783px;
+    color:white;
+    background: black;
+}
+
+.about-text-2{
+    font-size: 300px;
     font-weight: bold;
 }

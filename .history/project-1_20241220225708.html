@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 2</title>
+    <title>Project 1</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -34,7 +34,7 @@
         </div>
     </div>
     <div class="overlay hidden"></div>
-    <div class="landing-page-projects" id="project3">
+    <div class="landing-page-projects" id="project1">
         <div class="nav-bar">
             <a href="index.html"> <h1 class="Eros-title">Eros.</h1> </a> 
             <div class="nav-available-box">
@@ -52,8 +52,8 @@
         </div>
 
         <div class="landing-page-projects-content">
-            <h1>WEATHER DATA FETCHER USING OPENWEATHER API</h1>
-            <img class="weather-fetcher-pic" src="/img/weather-fetcher.png" alt="project 1 pic">
+            <h1>SHORT HAIR WITH GLASSES DETECTOR</h1>
+            <img src="/img/detector.png" alt="project 1 pic">
         </div>
     </div>
     
@@ -63,7 +63,7 @@
                 <div class="status-box">
                     <p>Finished</p>
                 </div>
-                <a href="https://github.com/Eros628/Weather-Data-Fetcher.git">
+                <a href="https://github.com/Eros628/Short-Hair-with-Glasses-Detection.git">
 
                     <div class="git-box">
                         <svg width="40" height="40" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -82,42 +82,39 @@
                 </a>
             </div>
             <p> 
-                This project aims to develop a simple and efficient tool that provides users with basic weather information for a specified city. 
-                Designed with a focus on usability, the system ensures users can quickly access essential weather details such as temperature, humidity, and general conditions without unnecessary complexity. 
-                By integrating the <a href="https://openweathermap.org/api" style="color: rgb(219, 219, 48);">OpenWeatherMap API</a>, the application delivers accurate and up-to-date weather data reliably and efficiently.
+             This project, developed during my first year in collaboration with my partner, Andrew Bautro, focuses on detecting individuals with short hair wearing glasses using advanced computer vision techniques. 
+             We implemented the system using C++ and integrated it with the OpenCV library for image processing. The detection model is based on YOLOv4, chosen for its high speed and accuracy in object detection tasks.
             </p>
         </div>
-        <img src="/img/project3-screenshot1.png" alt="screenshot 2">
-        <p>The tool features a minimal and intuitive user interface, enabling seamless interaction, 
-            while built-in error handling provides clear feedback if the city name is invalid or data retrieval fails. 
+        <img src="/img/screenshot2.png" alt="screenshot 2">
+        <img src="/img/screenshot3.png" alt="screenshot 3">
+        <p>To prepare the system, we annotated a dataset of 2,000 images using Roboflow, ensuring precise labeling of short hair and glasses. The annotated dataset was then used to train the YOLOv4 model, achieving reliable performance in detecting the targeted features. 
+            Once the model was trained, it was integrated into the application to enable real-time detection.
         </p>
-        <img src="/img/project3-screenshot2.png" alt="screenshot 1">
-        <p> The backend is developed using Flask and Python, ensuring robust server-side functionality. 
-            Additionally, TCP sockets are utilized for network communication, offering reliable data exchange. Optimized for core functionality, this lightweight application prioritizes speed, simplicity, and accuracy to meet user needs effectively.
+        <img src="/img/screenshot1.png" alt="screenshot 1">
+        <p> The system also provides flexibility for users, allowing them to choose between uploading an image file or using their camera for live detection.
+            This project demonstrates the effectiveness of YOLOv4 and the importance of thorough dataset preparation in achieving accurate detection results. The system serves as a strong foundation for exploring more complex computer vision tasks in the future
         </p>
             
-    
+     
     </div>
 
     <div class="email-container-about">
         <div class="rectangle-email">
             <p class="build-things-together-text">Let's build things together</p>
-            <a href="">
-                <div class="email-box">
-    
-                    <p>lucagbo.eros@gmail.com</p>
-                    <svg class="email-svg" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="18" cy="18" r="18" fill="black"/>
-                        <path class="emailPath" d="M25.7071 18.7071C26.0976 18.3166 26.0976 17.6834 25.7071 17.2929L19.3431 10.9289C18.9526 10.5384 18.3195 10.5384 17.9289 10.9289C17.5384 11.3195 17.5384 11.9526 17.9289 12.3431L23.5858 18L17.9289 23.6569C17.5384 24.0474 17.5384 24.6805 17.9289 25.0711C18.3195 25.4616 18.9526 25.4616 19.3431 25.0711L25.7071 18.7071ZM10 19L25 19L25 17L10 17L10 19Z" fill="white"/>
-                    </svg>
-                </div>
-            </a>
+            <button class="email-box">
+                <p>lucagbo.eros@gmail.com</p>
+                <svg class="email-svg" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="18" cy="18" r="18" fill="black"/>
+                    <path class="emailPath" d="M25.7071 18.7071C26.0976 18.3166 26.0976 17.6834 25.7071 17.2929L19.3431 10.9289C18.9526 10.5384 18.3195 10.5384 17.9289 10.9289C17.5384 11.3195 17.5384 11.9526 17.9289 12.3431L23.5858 18L17.9289 23.6569C17.5384 24.0474 17.5384 24.6805 17.9289 25.0711C18.3195 25.4616 18.9526 25.4616 19.3431 25.0711L25.7071 18.7071ZM10 19L25 19L25 17L10 17L10 19Z" fill="white"/>
+                </svg>
+            </button>
         </div>
     </div>
 
 
     <div class="nav-bar-footer">
-        <a href="#project3"><h1 class="Eros-title">Eros.</h1> </a>
+        <a href="#project1"><h1 class="Eros-title">Eros.</h1> </a>
         <div class="icons-socials">
             <a href="https://github.com/Eros628">
                 <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -148,6 +145,5 @@
             </a>   
         </div>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
